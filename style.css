@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  .caption-left {
+    visibility: hidden;
+  }
+  .carousel-caption {
+    width: 100%;
+    background-color: transparent !important;
+  }
+}
+@media (max-width: 920px) {
+  .caption-left {
+    visibility: hidden;
+  }
+  .carousel-caption {
+    width: 100%;
+    background-color: transparent !important;
+  }
+}
+@media (max-width: 1200px) {
+  .caption-left {
+    visibility: hidden;
+  }
+  .carousel-caption {
+    width: 100%;
+    background-color: transparent !important;
+  }
+}
