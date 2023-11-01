@@ -1,27 +1,44 @@
-@media (max-width: 600px) {
-  .caption-left {
-    visibility: hidden;
-  }
-  .carousel-caption {
-    width: 100%;
-    background-color: transparent !important;
-  }
+/* ---this apply for the whole webpage-------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-@media (max-width: 920px) {
-  .caption-left {
-    visibility: hidden;
-  }
-  .carousel-caption {
-    width: 100%;
-    background-color: transparent !important;
-  }
+
+/* ------starting------- */
+.logo img {
+  width: 150px;
 }
-@media (max-width: 1200px) {
-  .caption-left {
-    visibility: hidden;
-  }
-  .carousel-caption {
-    width: 100%;
-    background-color: transparent !important;
-  }
+/* -----hidden the menu and x icon in header-------- */
+.bar {
+  display: none;
+}
+
+/* ---alignment of logo img and menu and x icon and header styles----- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 7vw;
+  background-color: #f5f5db;
+  border-bottom: 2px solid burlywood;
+  box-shadow: 0 2px 20px rgb(253, 124, 124);
+}
+/* -----add styles to ul tags in header----------- */
+.header ul {
+  display: flex;
+  align-items: center;
+}
+.header ul li:hover {
+  color: crimson;
+}
+.nav ul li {
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: bold;
 }
